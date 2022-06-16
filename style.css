@@ -28,7 +28,7 @@ body {
     background-repeat: no-repeat;
     margin-left: 40%;
     position: absolute;
-    background-image: url('../../Downloads/car.png');
+    background-image: url('https://statics.moglix.com/img/newsletter/int/2022/june/160622/1/car.png');
     animation: infiniteScrollCar 20s linear infinite;
 
 }
@@ -48,7 +48,8 @@ body {
     margin-left: 40%;
     background-repeat: no-repeat;
     position: absolute;
-    background-image: url('../../Downloads/car.png');
+    background-image: url('https://statics.moglix.com/img/newsletter/int/2022/june/160622/1/car.png');
+    
     animation: infiniteScrollCar2 20s linear infinite;
 
 }
