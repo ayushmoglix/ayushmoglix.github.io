@@ -1,0 +1,63 @@
+body {
+    overflow: hidden;
+}
+.background-animated {
+    height: 180px;
+    /* height: 130px; */
+    background-position: left top;
+    width: 2500%;   
+    bottom: 0;
+    background-repeat: repeat-x;
+    position: absolute;
+    background-image: url('https://business.moglix.com/wp-content/uploads/2022/06/MicrosoftTeams-image.png');
+    animation: infiniteScrollBg 20s linear infinite;
+}
+
+@keyframes infiniteScrollBg {
+    100% {
+        transform: translateX(-1368px);
+   }  
+}
+
+.background-animated-car {
+    
+    height: 63px;
+    width: 1368px;
+    margin-top: 110px;
+    bottom: 0.5%;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    position: absolute;
+    background-image: url('../../Downloads/car.png');
+    animation: infiniteScrollCar 20s linear infinite;
+
+}
+
+@keyframes infiniteScrollCar {
+    100% {
+        transform: translateX(120vw);
+   }  
+}
+
+.background-animated-car-2 {
+    
+    height: 63px;
+    bottom: 0.5%;
+    width: 1368px;
+    margin-top: 110px;
+    margin-left: 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('../../Downloads/car.png');
+    animation: infiniteScrollCar2 20s linear infinite;
+
+}
+
+@keyframes infiniteScrollCar2 {
+    0% {
+        transform: translateX(-120vw);
+   }  
+   100% {
+    transform: translateX(0px);
+   }
+}
